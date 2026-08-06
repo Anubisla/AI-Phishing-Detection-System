@@ -42,19 +42,22 @@ Evaluated on a held-out 20% test set (~101K URLs):
 - HTML/CSS
 
 ## Project Structure
+
+```
 AI-Phishing-Detection-System/
-├── app.py # Flask web app (loads trained model)
+├── app.py                     # Flask web app (loads trained model)
 ├── model/
-│ ├── phishing_model.pkl # Trained Random Forest model
-│ └── feature_columns.pkl # Feature order used during training
+│   ├── phishing_model.pkl     # Trained Random Forest model
+│   └── feature_columns.pkl    # Feature order used during training
 ├── notebook/
-│ └── train_model.py # Feature engineering + model training script
+│   └── train_model.py         # Feature engineering + model training script
 ├── templates/
-│ └── index.html
+│   └── index.html
 ├── static/
-│ └── style.css
+│   └── style.css
 ├── phishing_dataset.csv
 └── requirements.txt
+```
 
 ## How to Run
 
